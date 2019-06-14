@@ -9,7 +9,7 @@ import javax.annotation.PreDestroy;
 public class Bean1 {
     @PostConstruct
     public void init(){
-        System.out.println("init...");
+//        System.out.println("init...");
     }
     public void say(){
         System.out.println("say...");
